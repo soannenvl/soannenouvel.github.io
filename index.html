@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<!-- head : metadonnées et liens du site -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- infos sur le site -->
+		<title>SOANNE NOUVEL</title>
+		<meta name="description" content="description courte du site à personnaliser" />
+		<!-- icone de votre site -->
+		<link rel="apple-touch-icon" href="sososs.gif" />
+		<link rel="icon" href="sososs.gif" />
+		<!-- styles -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<!-- body : contenu visibles du site -->
+	<body>
+		<!-- COLONNE GAUCHE — MENU -->
+		<aside id="menu">
+			<button class="project-link home-link" id="home">
+				<span>Home</span>
+			</button>
+			<button class="project-link" data-project="p1">
+				<span>Kitesy Martin Studio</span>
+				<img src="src/img/kms.jpg" class="thumb" />
+				<span><sup>2024</sup></span>
+			</button>
+		
+			<button class="project-link" data-project="p2">
+				<span>Sisi Joia</span>
+				<img src="src/img/sisijoia.jpg" class="thumb" />
+				<span><sup>2025</sup></span>
+			</button>
+		
+			<button class="project-link" data-project="p3">
+				<span>Kozto</span>
+				<img src="src/img/kozto.jpg" class="thumb" />
+				<span><sup>2025</sup></span>
+			</button>
+
+<!--		<button class="project-link" data-project="p4">
+				<span>Maroc</span>
+				<img src="src/img/maroc1.JPG" class="thumb" />
+				<span><sup>2023</sup></span>
+			</button> -->
+
+			<button class="project-link" data-project="p5">
+				<span>La Corvée</span>
+				<img src="src/img/corvée_sandwich.jpg" class="thumb" />
+				<span><sup>2024</sup></span>
+			</button>
+
+			<button class="project-link about-link" id="about">
+			À propos
+			</button>
+			
+		</aside>
+		
+		<!-- ZONE DE DROITE — INITIALEMENT CACHÉE -->
+		<main id="project-view"></main>
+
+		<!-- scripts -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
